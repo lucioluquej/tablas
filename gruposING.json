@@ -1,0 +1,134 @@
+[
+    {
+      "Nombre": "Introducción a la Informática",
+      "Año": "Ingreso",
+      "Semestre": 0,
+      "Link": "https://chat.whatsapp.com/DuuwL2au9Vu3Jf4Gvv6u5s"
+    },
+    {
+        "Nombre": "Programación I",
+        "Año": "Primero",
+        "Semestre": 1,
+        "Link": "https://chat.whatsapp.com/KY9vJ56vwUG5fVAdyhWeBH"
+    },
+    {
+        "Nombre": "Fundamentos de Arquitectura de Computadoras",
+        "Año": "Primero",
+        "Semestre": 1,
+        "Link": "https://chat.whatsapp.com/DLWZvMFNQoYDg7SQpR2xEV"
+    },
+    {
+        "Nombre": "Programación II",
+        "Año": "Primero",
+        "Semestre": 2,
+        "Link": "https://chat.whatsapp.com/FccqNwD5UOCBJC8rCaxGeM"
+    },
+    {
+        "Nombre": "Programación III",
+        "Año": "Segundo",
+        "Semestre": 1,
+        "Link": "https://chat.whatsapp.com/KBWZa29HUfMEf2iFotbJkQ"
+    },
+    {
+        "Nombre": "Arquitectura de Computadoras",
+        "Año": "Segundo",
+        "Semestre": 1,
+        "Link": "https://chat.whatsapp.com/Gh4biN5BXfy3Kx6yLsTJYF"
+    },
+    {
+        "Nombre": "Taller de Lenguajes I",
+        "Año": "Segundo",
+        "Semestre": 1,
+        "Link": "https://chat.whatsapp.com/CMEVEkT7gmZ4f42tMdkmXy"
+    },
+    {
+        "Nombre": "Conceptos de Sistemas Operativos",
+        "Año": "Segundo",
+        "Semestre": 1,
+        "Link": "https://chat.whatsapp.com/GhRezveG2eiJBmTP9CiX8x"
+    },
+    {
+        "Nombre": "Taller de Lenguajes II",
+        "Año": "Segundo",
+        "Semestre": 1,
+        "Link": "https://chat.whatsapp.com/IxLpg8vtSwXHo6OhmQB67X"
+    },
+    {
+        "Nombre": "Conceptos de Bases de Datos",
+        "Año": "Tercero",
+        "Semestre": 1,
+        "Link": "https://chat.whatsapp.com/KT23U9xVvu7FeSmuPNltk6"
+    },
+    {
+        "Nombre": "Taller de Arquitectura",
+        "Año": "Tercero",
+        "Semestre": 2,
+        "Link": "https://chat.whatsapp.com/KrzCAKbnZSI1eItksMTrl6"
+    },
+    {
+        "Nombre": "Ingeniería de Software",
+        "Año": "Tercero",
+        "Semestre": 2,
+        "Link": "https://chat.whatsapp.com/KBgQZeiuj5o2DLaBw7oWqY"
+    },
+    {
+        "Nombre": "Concurrencia y Paralelismo",
+        "Año": "Cuarto",
+        "Semestre": 1,
+        "Link": "https://chat.whatsapp.com/Gj5pP7cYrYALWBsn3thPJL"
+    },
+    {
+        "Nombre": "Economía y Emprendedorismo",
+        "Año": "Cuarto",
+        "Semestre": 1,
+        "Link": "https://chat.whatsapp.com/KNTVnogqJzgAC4i9HemJpc"
+    },
+    {
+        "Nombre": "Redes de Datos II",
+        "Año": "Cuarto",
+        "Semestre": 2,
+        "Link": "https://chat.whatsapp.com/G3SMNW3xX3LH9EGHt10ydq"
+    },
+    {
+        "Nombre": "Sistemas de Tiempo Real",
+        "Año": "Cuarto",
+        "Semestre": 2,
+        "Link": "https://chat.whatsapp.com/JSQfoa16SqYGMFFtS3FIGq"
+    },
+    {
+        "Nombre": "Bases de Datos",
+        "Año": "Cuarto",
+        "Semestre": 2,
+        "Link": "https://chat.whatsapp.com/G8QKpM8qmFYHrxD9oxLxsy"
+    },
+    {
+        "Nombre": "Sistemas Distribuidos y Paralelos",
+        "Año": "Quinto",
+        "Semestre": 1,
+        "Link": "https://chat.whatsapp.com/E9l1xeR55USHOJO7uevUzI"
+    },
+    {
+        "Nombre": "Aspectos Legales de Ingeniería Informática",
+        "Año": "Quinto",
+        "Semestre": 1,
+        "Link": "https://chat.whatsapp.com/KNLWuKejWmyIwAvtoLf597"
+    },
+    {
+        "Nombre": "Taller de Proyecto II",
+        "Año": "Quinto",
+        "Semestre": 2,
+        "Link": "https://chat.whatsapp.com/Fv1lOIP9x8p18NFSRTY9ld"
+    },
+    {
+        "Nombre": "Introducción a la Programación Cuántica",
+        "Año": "Quinto",
+        "Semestre": 2,
+        "Link": "https://chat.whatsapp.com/BQ1Yy52SS2YBkVaIhmezf5"
+    },
+    {
+        "Nombre": "Inglés",
+        "Año": "Segundo",
+        "Semestre": 0,
+        "Link": "https://chat.whatsapp.com/Cn92MbRq0iAKMjL6uV8HWB"
+    }
+]

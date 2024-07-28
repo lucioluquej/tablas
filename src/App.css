@@ -1,0 +1,208 @@
+/* Estilos para el logo y los enlaces principales */
+.logo {
+  width: 40px;
+  margin: 10px;
+}
+
+.logo.react {
+  animation: logo-spin infinite 20s linear;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Contenedor principal y título */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d3d3d3; /* Fondo gris claro */
+  color: #6a0dad; /* Color morado para el texto */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el input de búsqueda */
+input[type="text"] {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #6a0dad; /* Fondo violeta */
+  color: white; /* Letras blancas */
+}
+
+input[type="text"]::placeholder {
+  color: #ccc; /* Color gris claro para el placeholder */
+}
+
+/* Contenedor de filtros */
+h2 {
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.checkbox-item {
+  flex: 0 0 33%; /* Toma el 33% del ancho del contenedor padre */
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-item input[type="checkbox"] {
+  margin-right: 5px;
+  accent-color: #6a0dad; /* Color morado para el checkbox */
+}
+
+.checkbox-item label {
+  color: #6a0dad; /* Color morado para el texto de los labels */
+}
+
+/* Estilos de la tabla */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+}
+
+thead {
+  background-color: #e0e0e0; /* Fondo gris claro para el encabezado */
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  color: #6a0dad; /* Color morado para el texto */
+}
+
+/* Asegurar que el nombre se vea en una línea */
+td.name-cell {
+  white-space: nowrap;
+}
+
+/* Asegura que las filas tengan una altura mínima */
+.group-table td {
+  min-height: 40px;
+  vertical-align: middle;
+}
+
+/* Estilos del botón */
+.button-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  background-color: #0dad42; /* Color morado para el fondo del botón */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.button-table:hover {
+  opacity: 0.8;
+}
+
+button-table img {
+  margin-right: 8px;
+}
+
+/* Estilos para la tarjeta de conteo */
+.card {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.read-the-docs {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Nuevos estilos añadidos */
+
+/* Asegura que el contenedor de la búsqueda no cambie de tamaño */
+.search-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor de filtros */
+.filters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los contenedores de checkboxes */
+.checkbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  flex: 1 1 33%;
+}
+
+.checkbox-item input[type="checkbox"] {
+  margin-right: 5px;
+  accent-color: #6a0dad; /* Color morado para el checkbox */
+}
+
+.checkbox-item label {
+  color: #6a0dad; /* Color morado para el texto de los labels */
+}
+
+/* Estilos para la tabla */
+.group-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.group-table th, .group-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.group-table th {
+  background-color: #f2f2f2;
+}
+
+/* Asegura que las filas tengan una altura mínima */
+.group-table td {
+  min-height: 40px;
+  vertical-align: middle;
+}
+

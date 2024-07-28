@@ -24,37 +24,38 @@ body {
   color: #6a0dad; /* Color morado para el texto */
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
+.logo {
+  display: flex;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Estilos para el input de búsqueda */
-input[type="text"] {
-  display: block;
-  margin: 0 auto 20px;
+input[type='text'] {
+  width: 50%;
+  margin: 10px 0;
   padding: 10px;
-  width: 300px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #6a0dad; /* Fondo violeta */
   color: white; /* Letras blancas */
 }
 
-input[type="text"]::placeholder {
+input[type='text']::placeholder {
   color: #ccc; /* Color gris claro para el placeholder */
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
 }
 
 /* Contenedor de filtros */
 h2 {
   text-align: center;
-}
-
-.filters {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
 }
 
 .checkbox-container {
@@ -70,7 +71,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-.checkbox-item input[type="checkbox"] {
+.checkbox-item input[type='checkbox'] {
   margin-right: 5px;
   accent-color: #6a0dad; /* Color morado para el checkbox */
 }
@@ -80,22 +81,26 @@ h2 {
 }
 
 /* Estilos de la tabla */
+
+.table-container {
+  height: 500px;
+  overflow-y: auto;
+}
+
 table {
-  margin: 0 auto;
-  border-collapse: collapse;
-  width: 80%;
-  max-width: 800px;
+  width: 100%;
 }
 
 thead {
   background-color: #e0e0e0; /* Fondo gris claro para el encabezado */
+  position: sticky;
+  top: 0;
 }
 
-th, td {
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #ddd;
-  color: #6a0dad; /* Color morado para el texto */
+th,
+td {
+  padding: 8px;
+  text-align: left;
 }
 
 /* Asegurar que el nombre se vea en una línea */
@@ -120,15 +125,11 @@ td.name-cell {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 150px;
+  width: 100%;
 }
 
 .button-table:hover {
   opacity: 0.8;
-}
-
-button-table img {
-  margin-right: 8px;
 }
 
 /* Estilos para la tarjeta de conteo */
@@ -144,20 +145,11 @@ button-table img {
 
 /* Nuevos estilos añadidos */
 
-/* Asegura que el contenedor de la búsqueda no cambie de tamaño */
-.search-input {
-  width: 100%;
-  max-width: 300px;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
 /* Estilos para el contenedor de filtros */
 .filters {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 20px;
 }
 
 /* Estilos para los contenedores de checkboxes */
@@ -174,7 +166,7 @@ button-table img {
   flex: 1 1 33%;
 }
 
-.checkbox-item input[type="checkbox"] {
+.checkbox-item input[type='checkbox'] {
   margin-right: 5px;
   accent-color: #6a0dad; /* Color morado para el checkbox */
 }
@@ -182,27 +174,3 @@ button-table img {
 .checkbox-item label {
   color: #6a0dad; /* Color morado para el texto de los labels */
 }
-
-/* Estilos para la tabla */
-.group-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-.group-table th, .group-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-.group-table th {
-  background-color: #f2f2f2;
-}
-
-/* Asegura que las filas tengan una altura mínima */
-.group-table td {
-  min-height: 40px;
-  vertical-align: middle;
-}
-
